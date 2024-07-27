@@ -12,7 +12,7 @@ LIKE layoffs;
 SELECt * FROM layoffs_staging;
 
 -- fill the table layoffs_staging with the values
-INSERT layoffs_staging
+INSERT INTO layoffs_staging
 SELECT * FROM layoffs;
 
 -- now when we are data cleaning we usually follow a few steps
